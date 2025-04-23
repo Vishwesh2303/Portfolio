@@ -1,6 +1,6 @@
 import React from 'react';
 import './PortfolioHome.css';
-
+import avatar from '../assets/image-removebg-preview.png';
 function PortfolioHome() {
   return (
     <div className="portfolio-container">
@@ -52,8 +52,9 @@ function PortfolioHome() {
 
           {/* Right Image Section */}
           <div className="image-section">
-            <img src="/image-removebg-preview.png" alt="Aman Avatar" className="avatar" />
-            <div className="overlay-text">X</div>
+          <img src={avatar} alt="Aman Avatar" className="avatar" />
+
+            {/* <div className="overlay-text">X</div> */}
           </div>
         </div>
       </div>

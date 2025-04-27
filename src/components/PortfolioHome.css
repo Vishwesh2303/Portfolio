@@ -1,4 +1,5 @@
 /* General container */
+
 .portfolio-container {
   display: flex;
   justify-content: center;
@@ -39,7 +40,9 @@
 
 /* Main container styling - Full width */
 .main-card {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
+
+
   border-radius: 30px;
   padding: 60px;
   width: 90%;
@@ -57,13 +60,27 @@
 }
 
 /* Header styling */
-.header {
+.hea {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
   animation: fadeIn 2s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6px;
+  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  /* background: rgba(255, 255, 255, 0.2); Light transparent background */
+  /* backdrop-filter: blur(10px);  */
+  /* -webkit-backdrop-filter: blur(10px); For Safari support */
+  /* border-radius: 10px; Optional: for nice rounded edges */
 }
+
 
 .logo-section {
   display: flex;
@@ -128,6 +145,7 @@ h1:hover {
 .text-content {
   max-width: 50%;
   animation: fadeIn 1.5s ease-out;
+  color: #000;
 }
 
 h2 {
@@ -193,13 +211,16 @@ p {
 .image-section {
   max-width: 45%;
   position: relative;
+  left: 10%;
 }
 
 .avatar {
-  width: 100%;
+  
+  width: 60%;
   border-radius: 15px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .avatar:hover {
@@ -210,9 +231,9 @@ p {
 .overlay-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  font-size: 200px;
+  font-size: 350px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.1);
   z-index: -1;

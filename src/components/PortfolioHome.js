@@ -1,5 +1,7 @@
 import React from 'react';
 import './PortfolioHome.css';
+import avatar from '../assets/image-removebg-preview.png';
+import { Link } from 'react-router-dom';
 
 function PortfolioHome() {
   return (
@@ -18,17 +20,21 @@ function PortfolioHome() {
       {/* Main container */}
       <div className="main-card">
         {/* Header */}
-        <div className="header">
-          <div className="logo-section">
-            <div className="logo">▣</div>
-            <h1>Aman</h1>
-          </div>
-          <nav className="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-          </nav>
+        <div className="heaa">
+          <header className="header">
+            <div className="logo-section">
+                  <div className="logo">▣</div>
+                  <h1>Vish</h1>
+                </div>
+              
+                <nav className="navigation">
+                  <a href=""><Link to="/">Home</Link></a>
+                  <a href=""><Link to="/skills">Skills</Link></a>
+                  <a href=''><Link to="/projects">Projects</Link></a>
+                  <a href=""><Link to="/contact">Contact</Link></a>
+                 
+                </nav>
+            </header>
         </div>
 
         {/* Body - Horizontal layout */}
@@ -36,24 +42,25 @@ function PortfolioHome() {
           {/* Left Text Content */}
           <div className="text-content">
             <h2>IOS Developer <br />and Web Developer</h2>
-            <p>Hi, I’m Aman Kumar. A passionate IOS Developer and Web Developer based in Chennai.</p>
+            <p>Hi, I’m Vishwesh Joshi. A passionate IOS Developer and Web Developer based in Chennai.</p>
             <button className="work-button">
               <span>See my works</span>
               <span className="arrow">➜</span>
             </button>
             <div className="social-links">
-              <a href="#">LinkedIn</a>
+              <a href="#">LinkedIn </a>
               <span>/</span>
-              <a href="#">GitHub</a>
+              <a href="#"> GitHub </a>
               <span>/</span>
-              <a href="#">Twitter</a>
+              <a href="#"> Twitter</a>
             </div>
           </div>
 
           {/* Right Image Section */}
           <div className="image-section">
-            <img src="/image-removebg-preview.png" alt="Aman Avatar" className="avatar" />
-            <div className="overlay-text">X</div>
+          <img src={avatar} alt="vish Avatar" className="avatar" />
+
+            {/* <div className="overlay-text">X</div> */}
           </div>
         </div>
       </div>

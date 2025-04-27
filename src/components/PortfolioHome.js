@@ -1,8 +1,11 @@
 import React from 'react';
 import './PortfolioHome.css';
 import avatar from '../assets/image-removebg-preview.png';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 
+=======
+>>>>>>> 6dd16f29615a581384054f9294c9d7d3cfa28d52
 function PortfolioHome() {
   return (
     <div className="portfolio-container">
@@ -58,7 +61,11 @@ function PortfolioHome() {
 
           {/* Right Image Section */}
           <div className="image-section">
+<<<<<<< HEAD
           <img src={avatar} alt="vish Avatar" className="avatar" />
+=======
+          <img src={avatar} alt="Aman Avatar" className="avatar" />
+>>>>>>> 6dd16f29615a581384054f9294c9d7d3cfa28d52
 
             {/* <div className="overlay-text">X</div> */}
           </div>

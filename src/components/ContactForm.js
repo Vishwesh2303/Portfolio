@@ -32,13 +32,14 @@ const ContactForm = () => {
     }
 
     try {
-      const response = await axios.post('YOUR_BACKEND_URL/contact', formData);
+      const response = await axios.post('http://localhost:5000/contact', formData);
+
       if (response.data.success) {
-        setStatus('Message sent successfully!');
+        setStatus('Message sent successfully');
       }
     } catch (error) {
         // formData = '';
-      setStatus('Message sent successfully!');
+      setStatus('error');
     }
   };
 

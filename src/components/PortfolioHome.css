@@ -19,7 +19,7 @@
   position: absolute;
   top: 10%;
   left: 8%;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 1.5rem;
   font-weight: 400;
   animation: fadeIn 2s ease-out;
@@ -33,7 +33,7 @@
   transform: translateY(-50%) rotate(90deg);
   font-size: 72px;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(62, 62, 62, 0.2);
   letter-spacing: 5px;
   animation: rotateText 10s linear infinite;
 }

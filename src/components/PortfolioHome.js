@@ -1,11 +1,8 @@
 import React from 'react';
 import './PortfolioHome.css';
 import avatar from '../assets/image-removebg-preview.png';
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 
-=======
->>>>>>> 6dd16f29615a581384054f9294c9d7d3cfa28d52
 function PortfolioHome() {
   return (
     <div className="portfolio-container">
@@ -47,7 +44,7 @@ function PortfolioHome() {
             <h2>IOS Developer <br />and Web Developer</h2>
             <p>Hi, I’m Vishwesh Joshi. A passionate IOS Developer and Web Developer based in Chennai.</p>
             <button className="work-button">
-              <span>See my works</span>
+              <span><Link to="/projects">See my works</Link></span>
               <span className="arrow">➜</span>
             </button>
             <div className="social-links">
@@ -61,11 +58,7 @@ function PortfolioHome() {
 
           {/* Right Image Section */}
           <div className="image-section">
-<<<<<<< HEAD
           <img src={avatar} alt="vish Avatar" className="avatar" />
-=======
-          <img src={avatar} alt="Aman Avatar" className="avatar" />
->>>>>>> 6dd16f29615a581384054f9294c9d7d3cfa28d52
 
             {/* <div className="overlay-text">X</div> */}
           </div>

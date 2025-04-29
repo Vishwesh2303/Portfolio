@@ -7,13 +7,12 @@ import Projects from './components/ProjectPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
-
       </Routes>
     </Router>
   );

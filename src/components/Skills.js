@@ -27,7 +27,7 @@ const Skills = () => {
         </header>
 
         <section className="skills-section" id="skills">
-          <h1 className="skills-title">Web Developer 2023</h1>
+          <h1 className="skills-title">Web Developer 2024</h1>
 
           <div className="skills-container">
             <div className="skill-column">
